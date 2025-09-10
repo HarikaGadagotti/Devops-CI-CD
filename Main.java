@@ -39,8 +39,9 @@ public class Main {
         list.insertAtBeginning(10);
         list.insertAtBeginning(20);
         list.insertAtBeginning(30);
+        list.insertAtBeginning(40);
 
         list.display();  
-        // Output: 30 -> 20 -> 10 -> null
+        // Output: 40 -> 30 -> 20 -> 10 -> null
     }
 }
